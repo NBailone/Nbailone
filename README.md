@@ -12,7 +12,7 @@ Trabajo principalmente con **Python, Java, SQL y APIs REST**.
 
 ## Proyectos destacados
 
-### [multiagente-operaciones](https://github.com/NBailone/multiagente-operaciones): automatización de operaciones logísticas
+## [multiagente-operaciones](https://github.com/NBailone/multiagente-operaciones): automatización de operaciones logísticas
 
 Desarrollé una aplicación de escritorio para Windows que coordina el flujo diario de un agente de carga: descarga de correos, lectura de tickets de balanza con OCR, control de datos contra planillas Excel, impresión documental y envío de correos. La persona solo valida las excepciones.
 
@@ -29,7 +29,7 @@ Antes, cada operación exigía revisar manualmente los papeles de exportación q
 
 * * *
 
-### [sistema-analisis-financiero](https://github.com/NBailone/sistema-analisis-financiero): análisis de mercados financieros
+## [sistema-analisis-financiero](https://github.com/NBailone/sistema-analisis-financiero): análisis de mercados financieros
 
 Desarrollé una aplicación web full stack con un pipeline completo de datos financieros: extracción desde múltiples APIs → ETL (limpieza, validación y almacenamiento) → cálculo de indicadores técnicos (RSI, MACD, ADX, entre otros) → visualización interactiva, con generación de predicciones sobre activos financieros.
 
@@ -41,7 +41,7 @@ Desarrollé una aplicación web full stack con un pipeline completo de datos fin
 
 * * *
 
-### [sistema-inventario-ventas](https://github.com/NBailone/sistema-inventario-ventas): gestión comercial
+## [sistema-inventario-ventas](https://github.com/NBailone/sistema-inventario-ventas): gestión comercial
 
 Aplicación web full stack para gestión comercial, con arquitectura MVC en capas y patrón DAO.
 
@@ -69,4 +69,4 @@ Aplicación web full stack para gestión comercial, con arquitectura MVC en capa
 
 ## Formación
 
-Ingeniería en Sistemas de Información, Universidad Tecnológica Nacional (F
+Ingeniería en Sistemas de Información, Universidad Tecnológica Nacional (Facultad Regional Rosario).
