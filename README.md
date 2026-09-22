@@ -1,109 +1,72 @@
-# 👋 Hola, soy Nicolás Bailone
+Nicolás Bailone
 
-🎓 Ingeniero en Sistemas de Información  
-💻 Desarrollador orientado a Backend, Data y Aplicaciones Web  
-📍 Argentina  
+**Ingeniero en Sistemas de Información** · Automatización de procesos y datos · Argentina
 
----
+Identifico procesos manuales y repetitivos y los convierto en flujos automáticos y verificables: extracción de datos, ETL, OCR e integración con APIs. También desarrollo aplicaciones web full stack. Vengo del mundo de la logística y el comercio exterior, así que entiendo el negocio que hay detrás de los datos, no solo la parte técnica.
 
-## 🚀 Sobre mí
+[LinkedIn](https://www.linkedin.com/in/nicolas-bailone-2976462a3) · [nbailone@gmail.com](mailto:nbailone@gmail.com)
 
-Soy Ingeniero en Sistemas con un perfil generalista, enfocado en el desarrollo de aplicaciones web, procesamiento de datos y análisis de información.
+Trabajo principalmente con **Python, Java, SQL y APIs REST**.
 
-Me interesa especialmente trabajar en:
-- Desarrollo Backend (Java)
-- Integración y procesamiento de datos (ETL)
-- Sistemas de análisis y visualización de información
-- Soluciones orientadas a negocio
+* * *
 
-Actualmente busco mi primera oportunidad profesional en IT donde pueda aportar valor y seguir creciendo.
+## Proyectos destacados
 
----
+### [multiagente-operaciones](https://github.com/NBailone/multiagente-operaciones): automatización de operaciones logísticas
 
-## 🧠 Tecnologías principales
+Desarrollé una aplicación de escritorio para Windows que coordina el flujo diario de un agente de carga: descarga de correos, lectura de tickets de balanza con OCR, control de datos contra planillas Excel, impresión documental y envío de correos. La persona solo valida las excepciones.
 
-**Lenguajes:**
-- Java
-- Python
-- SQL
-- JavaScript
+Antes, cada operación exigía revisar manualmente los papeles de exportación que se llevan los choferes, con foco constante en detectar errores. Con el sistema en marcha, ese control manual dejó de ser necesario y se redujo de forma notable el tiempo dedicado a la tarea.
 
-**Backend:**
-- Java EE (Servlets, JSP)
-- Arquitectura MVC
-- Patrón DAO
+* **Armado automático de planillas:** a partir de las carpetas de carga diarias completa las planillas mensuales (envíos, cobro y precintos de aduana con su permiso asignado) y detecta operaciones compartidas entre dos permisos.
+* **OCR con dos motores en paralelo:** PaddleOCR local y modelos de visión por API (Gemini, Gemma vía OpenRouter). Si uno falla o duda, el otro cubre la lectura.
+* **Validación campo por campo** de tickets contra planillas y datos de aduana, con diferencias marcadas en rojo.
+* **Backup automático** de las carpetas de trabajo de las exportaciones, y modo "Súper Auto" que encadena todo el flujo rutinario en un solo paso.
+* **Seguridad y distribución:** credenciales y API keys encriptadas (PBKDF2), fuera del control de versiones, y empaquetado como `.exe` con PyInstaller e instalador idempotente.
+* Desarrollado con un enfoque **spec-driven**: cada cambio se especifica primero (`openspec/`) y después se implementa. Más de 100 commits.
 
-**Frontend:**
-- HTML5, CSS3
-- JavaScript, AJAX
-- Bootstrap
+**Stack:** Python · CustomTkinter · PaddleOCR · Tesseract · OpenPyXL · IMAP · pywin32 · PyInstaller
 
-**Datos & ETL:**
-- Pentaho Data Integration
-- Procesos ETL
-- APIs REST (consumo y procesamiento)
+* * *
 
-**Base de datos:**
-- MySQL / MariaDB
-- Procedimientos almacenados
+### [sistema-analisis-financiero](https://github.com/NBailone/sistema-analisis-financiero): análisis de mercados financieros
 
-**Herramientas & Infraestructura:**
-- Apache Tomcat
-- XAMPP
-- Cloudflare Tunnel
-- GlassFish
+Desarrollé una aplicación web full stack con un pipeline completo de datos financieros: extracción desde múltiples APIs → ETL (limpieza, validación y almacenamiento) → cálculo de indicadores técnicos (RSI, MACD, ADX, entre otros) → visualización interactiva, con generación de predicciones sobre activos financieros.
 
----
+* Extracción en tiempo real e histórica desde múltiples APIs.
+* Pipeline ETL automatizado con Pentaho Data Integration.
+* Predicciones sobre activos financieros y visualizaciones interactivas con Chart.js.
 
-## 📊 Proyecto destacado
+**Stack:** Java (Servlets + JSP) · Python · Pentaho · MySQL · Chart.js
 
-### 🔹 Sistema de Análisis de Mercados Financieros
+* * *
 
-Aplicación web que integra datos en tiempo real, históricos e indicadores técnicos para asistir en la toma de decisiones de inversión.
+### [sistema-inventario-ventas](https://github.com/NBailone/sistema-inventario-ventas): gestión comercial
 
-**🔧 Qué hace:**
-- Integra datos financieros en tiempo real desde múltiples APIs
-- Procesa y transforma datos históricos para el cálculo de indicadores técnicos (RSI, MACD, ADX, entre otros)
-- Implementa procesos ETL automatizados para limpieza, validación y almacenamiento de datos
-- Genera predicciones sobre activos financieros
-- Presenta la información mediante visualizaciones interactivas
+Aplicación web full stack para gestión comercial, con arquitectura MVC en capas y patrón DAO.
 
-**🧱 Stack:**
-- Java (Servlets + JSP)
-- Python (extracción de datos desde APIs)
-- Pentaho Data Integration
-- MySQL
-- Chart.js
+* Gestión de productos y control de stock.
+* Registro de ventas y administración de clientes.
+* Control de inventario en tiempo real.
 
-👉 Proyecto enfocado en análisis de datos y sistemas financieros.
+**Stack:** Java EE (Servlets + JSP) · MySQL / MariaDB · Bootstrap
 
----
+* * *
 
-### 🔹 Sistema de Gestión de Inventario y Ventas
+## Tecnologías en mis proyectos
 
-Aplicación web para gestión comercial completa.
+| Área | Tecnologías |
+| --- | --- |
+| Lenguajes | Java, Python, SQL, JavaScript |
+| Datos y ETL | Pentaho Data Integration, MySQL / MariaDB, procedimientos almacenados, APIs REST, OpenPyXL |
+| OCR e IA | PaddleOCR, Tesseract, modelos de visión por API (OpenRouter) |
+| Backend | Java EE (Servlets, JSP), MVC, DAO |
+| Frontend | HTML5, CSS3, JavaScript, AJAX, Bootstrap, Chart.js |
+| Automatización | CustomTkinter, pywin32, PyInstaller, PowerShell, IMAP |
+| Herramientas | Git, GitHub, Apache Tomcat, Cloudflare Tunnel |
 
-**🔧 Qué incluye:**
-- Gestión de productos y stock
-- Registro de ventas
-- Administración de clientes
-- Control de inventario en tiempo real
+* * *
 
-**🧱 Stack:**
-- Java EE (MVC + DAO)
-- JSP + Servlets
-- MySQL / MariaDB
-- Bootstrap
+## Formación
 
-👉 Proyecto enfocado en arquitectura de software y lógica de negocio.
-
----
-
-## 📂 Qué vas a encontrar en mi GitHub
-
-- Proyectos completos (frontend + backend + base de datos)
-- Aplicaciones reales (no solo ejercicios)
-- Uso de buenas prácticas (MVC, DAO, separación de capas)
-- Integración con APIs y procesamiento de datos
-
----
+Ingeniería en Sistemas de Información, Universidad Tecnológica Nacional (F
