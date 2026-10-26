@@ -1,12 +1,12 @@
 # Nicolás Bailone
 
-**Ingeniero en Sistemas de Información** · Automatización de procesos y datos · Argentina
+**Ingeniero en Sistemas de Información · Desarrollo web full stack · Datos y automatización · Argentina
 
-Identifico procesos manuales y repetitivos y los convierto en flujos automáticos y verificables: extracción de datos, ETL, OCR e integración con APIs. También desarrollo aplicaciones web full stack. Vengo del mundo de la logística y el comercio exterior, así que entiendo el negocio que hay detrás de los datos, no solo la parte técnica.
+Desarrollo aplicaciones web full stack y sistemas que trabajan con datos: análisis financiero, gestión de inventario y ventas, y automatización de operaciones logísticas. Vengo del mundo de la logística y el comercio exterior, así que mis proyectos parten de problemas reales de operación.
 
 [LinkedIn](https://www.linkedin.com/in/nicolas-bailone-2976462a3) · [nbailone@gmail.com](mailto:nbailone@gmail.com)
 
-Trabajo principalmente con **Python, Java, SQL y APIs REST**.
+Trabajo principalmente con **Python, Java, JavaScript, SQL y APIs REST**.
 
 ---
 
