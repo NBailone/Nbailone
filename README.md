@@ -1,6 +1,6 @@
 # Nicolás Bailone
 
-**Ingeniero en Sistemas de Información · Desarrollo web full stack · Datos y automatización · Argentina
+**Ingeniero en Sistemas de Información · Desarrollo web full stack · Datos y automatización · Argentina**
 
 Desarrollo aplicaciones web full stack y sistemas que trabajan con datos: análisis financiero, gestión de inventario y ventas, y automatización de operaciones logísticas. Vengo del mundo de la logística y el comercio exterior, así que mis proyectos parten de problemas reales de operación.
 
