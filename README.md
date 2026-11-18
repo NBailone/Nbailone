@@ -23,7 +23,7 @@ Antes, cada operación exigía revisar manualmente los papeles de exportación q
 - **Validación campo por campo** de tickets contra planillas y datos de aduana, con diferencias marcadas en rojo.
 - **Backup automático** de las carpetas de trabajo de las exportaciones, y modo "Súper Auto" que encadena todo el flujo rutinario en un solo paso.
 - **Seguridad y distribución:** credenciales y API keys encriptadas (PBKDF2), fuera del control de versiones, y empaquetado como `.exe` con PyInstaller e instalador idempotente.
-- Desarrollado con un enfoque **spec-driven**: cada cambio se especifica primero (`openspec/`) y después se implementa. Más de 100 commits.
+- Desarrollado con un enfoque **spec-driven**: cada cambio se especifica primero (`openspec/`) y después se implementa.
 
 **Stack:** Python · CustomTkinter · PaddleOCR · Tesseract · OpenPyXL · IMAP · pywin32 · PyInstaller
 
